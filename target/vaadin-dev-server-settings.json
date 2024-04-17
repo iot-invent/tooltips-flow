@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/Users/ahuber/git/iot-invent/tooltips-flow/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/ahuber/git/iot-invent/tooltips-flow/frontend/generated/jar-resources",
+  "staticOutput": "target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "target/classes/META-INF/VAADIN/webapp/../config/",
+  "frontendBundleOutput": "target/classes/META-INF/VAADIN/webapp/",
+  "devBundleOutput": "/Users/ahuber/git/iot-invent/tooltips-flow/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/ahuber/git/iot-invent/tooltips-flow/target/dev-bundle/config",
+  "jarResourcesFolder": "/Users/ahuber/git/iot-invent/tooltips-flow/frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "/Users/ahuber/git/iot-invent/tooltips-flow/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
