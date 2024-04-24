@@ -1,9 +1,9 @@
-package io.rtlscloud.vaadin.tooltip;
+package io.rtlscloud.vaadin.hyper.tooltip;
 
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.shared.Registration;
 
-import io.rtlscloud.vaadin.tooltip.config.TooltipConfiguration;
+import io.rtlscloud.vaadin.hyper.tooltip.config.TooltipConfiguration;
 
 import java.io.Serializable;
 import java.lang.ref.WeakReference;

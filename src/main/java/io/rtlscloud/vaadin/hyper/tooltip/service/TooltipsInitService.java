@@ -1,11 +1,11 @@
-package io.rtlscloud.vaadin.tooltip.service;
+package io.rtlscloud.vaadin.hyper.tooltip.service;
 
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.server.ServiceInitEvent;
 import com.vaadin.flow.server.VaadinServiceInitListener;
 
-import io.rtlscloud.vaadin.tooltip.Tooltips;
-import io.rtlscloud.vaadin.tooltip.exception.TooltipsAlreadyInitializedException;
+import io.rtlscloud.vaadin.hyper.tooltip.Tooltips;
+import io.rtlscloud.vaadin.hyper.tooltip.exception.TooltipsAlreadyInitializedException;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

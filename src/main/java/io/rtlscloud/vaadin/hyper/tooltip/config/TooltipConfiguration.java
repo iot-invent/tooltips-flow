@@ -1,8 +1,8 @@
-package io.rtlscloud.vaadin.tooltip.config;
+package io.rtlscloud.vaadin.hyper.tooltip.config;
 
 import elemental.json.JsonObject;
-import io.rtlscloud.vaadin.tooltip.Tooltips;
-import io.rtlscloud.vaadin.tooltip.exception.InvalidTooltipContentException;
+import io.rtlscloud.vaadin.hyper.tooltip.Tooltips;
+import io.rtlscloud.vaadin.hyper.tooltip.exception.InvalidTooltipContentException;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -111,7 +111,7 @@ public class TooltipConfiguration implements Serializable {
    */
   @Getter
   @Setter
-  private TC_FOLLOW_CURSOR followCursor;
+  private FollowCursor followCursor;
 
   /**
    * Determines when the tooltip is shown / hidden.
@@ -120,7 +120,7 @@ public class TooltipConfiguration implements Serializable {
    */
   @Getter
   @Setter
-  private TC_HIDE_ON_CLICK hideOnClick;
+  private HideOnClick hideOnClick;
 
   /**
    * When using UI (component) libraries like React, this is generally not necessary and slows down initialization perf a bit. | false by
@@ -178,7 +178,7 @@ public class TooltipConfiguration implements Serializable {
    */
   @Getter
   @Setter
-  private TC_PLACEMENT placement;
+  private Placement placement;
 
   /**
    * Define arbitrary popper options
@@ -209,7 +209,7 @@ public class TooltipConfiguration implements Serializable {
    */
   @Getter
   @Setter
-  private TC_STICKY sticky;
+  private Sticky sticky;
 
   /**
    * Determines the theme of the tippy element
@@ -252,7 +252,7 @@ public class TooltipConfiguration implements Serializable {
    *
    * @param appendTo option
    */
-  public void setAppendTo(TC_APPEND_TO appendTo) {
+  public void setAppendTo(AppendTo appendTo) {
     this.appendTo = appendTo != null ? appendTo.getValue(): null;
   }
 

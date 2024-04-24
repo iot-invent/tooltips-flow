@@ -1,11 +1,11 @@
-package io.rtlscloud.vaadin.tooltip.mixin;
+package io.rtlscloud.vaadin.hyper.tooltip.mixin;
 
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.HasElement;
 import com.vaadin.flow.component.UI;
 
-import io.rtlscloud.vaadin.tooltip.Tooltips;
-import io.rtlscloud.vaadin.tooltip.config.TooltipConfiguration;
+import io.rtlscloud.vaadin.hyper.tooltip.Tooltips;
+import io.rtlscloud.vaadin.hyper.tooltip.config.TooltipConfiguration;
 
 /**
  * Allows to define Tooltips more easily by adding this mixin interface.

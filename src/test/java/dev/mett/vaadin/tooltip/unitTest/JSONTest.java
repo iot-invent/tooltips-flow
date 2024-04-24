@@ -3,9 +3,9 @@ package dev.mett.vaadin.tooltip.unitTest;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import elemental.json.JsonObject;
-import io.rtlscloud.vaadin.tooltip.config.TC_FOLLOW_CURSOR;
-import io.rtlscloud.vaadin.tooltip.config.TC_HIDE_ON_CLICK;
-import io.rtlscloud.vaadin.tooltip.config.TooltipConfiguration;
+import io.rtlscloud.vaadin.hyper.tooltip.config.FollowCursor;
+import io.rtlscloud.vaadin.hyper.tooltip.config.HideOnClick;
+import io.rtlscloud.vaadin.hyper.tooltip.config.TooltipConfiguration;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,8 +26,8 @@ public class JSONTest {
     TooltipConfiguration config = new TooltipConfiguration("test text");
     config.setDuration(null, 20);
     config.setContent("test \n<br> abc");
-    config.setFollowCursor(TC_FOLLOW_CURSOR.HORIZONTAL);
-    config.setHideOnClick(TC_HIDE_ON_CLICK.FALSE);
+    config.setFollowCursor(FollowCursor.HORIZONTAL);
+    config.setHideOnClick(HideOnClick.FALSE);
     config.setShowOnCreate(false);
     config.setTouch("hold", 500);
 

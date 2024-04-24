@@ -1,4 +1,4 @@
-package io.rtlscloud.vaadin.tooltip;
+package io.rtlscloud.vaadin.hyper.tooltip;
 
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.ComponentUtil;
@@ -10,10 +10,10 @@ import com.vaadin.flow.shared.Registration;
 
 import elemental.json.JsonNull;
 import elemental.json.JsonValue;
-import io.rtlscloud.vaadin.tooltip.config.TooltipConfiguration;
-import io.rtlscloud.vaadin.tooltip.exception.TooltipsAlreadyInitializedException;
-import io.rtlscloud.vaadin.tooltip.util.TooltipsJsProvider;
-import io.rtlscloud.vaadin.tooltip.util.TooltipsUtil;
+import io.rtlscloud.vaadin.hyper.tooltip.config.TooltipConfiguration;
+import io.rtlscloud.vaadin.hyper.tooltip.exception.TooltipsAlreadyInitializedException;
+import io.rtlscloud.vaadin.hyper.tooltip.util.TooltipsJsProvider;
+import io.rtlscloud.vaadin.hyper.tooltip.util.TooltipsUtil;
 
 import java.io.Serializable;
 import java.lang.ref.WeakReference;

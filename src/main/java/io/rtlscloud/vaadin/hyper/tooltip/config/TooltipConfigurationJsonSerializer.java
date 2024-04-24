@@ -1,4 +1,4 @@
-package io.rtlscloud.vaadin.tooltip.config;
+package io.rtlscloud.vaadin.hyper.tooltip.config;
 
 import com.vaadin.flow.component.JsonSerializable;
 import elemental.json.Json;

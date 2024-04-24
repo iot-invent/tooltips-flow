@@ -1,4 +1,4 @@
-package io.rtlscloud.vaadin.tooltip.util;
+package io.rtlscloud.vaadin.hyper.tooltip.util;
 
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.Tag;

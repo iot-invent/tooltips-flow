@@ -1,4 +1,4 @@
-package io.rtlscloud.vaadin.tooltip.exception;
+package io.rtlscloud.vaadin.hyper.tooltip.exception;
 
 public class TooltipsAlreadyInitializedException extends Exception {
 

@@ -1,4 +1,4 @@
-package io.rtlscloud.vaadin.tooltip.config;
+package io.rtlscloud.vaadin.hyper.tooltip.config;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -11,7 +11,7 @@ import lombok.RequiredArgsConstructor;
  *
  * @author Gerrit Sedlaczek
  */
-public enum TC_PLACEMENT implements JsonConvertible {
+public enum Placement implements JsonConvertible {
   TOP("top"),
   TOP_START("top-start"),
   TOP_END("top-end"),

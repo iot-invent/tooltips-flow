@@ -1,4 +1,4 @@
-package io.rtlscloud.vaadin.tooltip.config;
+package io.rtlscloud.vaadin.hyper.tooltip.config;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -11,7 +11,7 @@ import lombok.RequiredArgsConstructor;
  *
  * @author Gerrit Sedlaczek
  */
-public enum TC_STICKY implements JsonConvertible {
+public enum Sticky implements JsonConvertible {
   FALSE(false),
   TRUE(true),
   REFERENCE("reference"),

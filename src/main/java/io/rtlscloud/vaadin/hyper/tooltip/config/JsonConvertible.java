@@ -1,4 +1,4 @@
-package io.rtlscloud.vaadin.tooltip.config;
+package io.rtlscloud.vaadin.hyper.tooltip.config;
 
 import elemental.json.JsonValue;
 import java.io.Serializable;

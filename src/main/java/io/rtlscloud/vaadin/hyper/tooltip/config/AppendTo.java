@@ -1,4 +1,4 @@
-package io.rtlscloud.vaadin.tooltip.config;
+package io.rtlscloud.vaadin.hyper.tooltip.config;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -9,7 +9,7 @@ import lombok.RequiredArgsConstructor;
  * Documentation: https://atomiks.github.io/tippyjs/v6/all-props/#appendto
  */
 @RequiredArgsConstructor
-public enum TC_APPEND_TO implements JsonConvertible {
+public enum AppendTo implements JsonConvertible {
   PARENT("parent"),
   DOCUMENT_BODY("document.body");
 
